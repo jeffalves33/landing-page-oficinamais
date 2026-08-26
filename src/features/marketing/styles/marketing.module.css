@@ -1082,3 +1082,85 @@
 .planConditions li::before { background: #f05a1a; }
 .trustSpotlight { background: radial-gradient(circle,rgba(255,163,111,.38),rgba(239,91,25,.22) 35%,transparent 68%); }
 .finalCtaGlow { background: radial-gradient(circle,rgba(255,183,137,.50),rgba(232,80,18,.26) 35%,transparent 68%); }
+
+/* Legal content refinements */
+.legalLayout article ul {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.legalLayout article li {
+  position: relative;
+  padding-left: 22px;
+  color: #5f6673;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.legalLayout article li::before {
+  content: "";
+  position: absolute;
+  top: .68em;
+  left: 2px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ed5a1b;
+  box-shadow: 0 0 0 4px rgba(237,90,27,.10);
+}
+.legalContact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 42px;
+  padding: 26px;
+  border: 1px solid rgba(240,90,26,.18);
+  border-radius: 18px;
+  background: linear-gradient(135deg,#fff7f1,#fff);
+}
+.legalContact > div { min-width: 0; }
+.legalContact strong {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+.legalContact p {
+  margin: 0 !important;
+  font-size: 12px !important;
+  line-height: 1.65 !important;
+}
+.legalContact a,
+.legalContact > span {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 17px;
+  border-radius: 999px;
+  background: #1c1c22;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+}
+.legalContact > span {
+  max-width: 220px;
+  background: #ece8e3;
+  color: #5f5a56;
+  text-align: center;
+}
+
+@media (max-width: 620px) {
+  .legalLayout article li { font-size: 13px; }
+  .legalContact {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .legalContact a,
+  .legalContact > span {
+    width: 100%;
+    max-width: none;
+  }
+}

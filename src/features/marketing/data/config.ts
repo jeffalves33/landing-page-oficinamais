@@ -5,8 +5,9 @@ export const marketingConfig = {
   routes: {
     home: "/",
     login: "/login",
-    signup: "/criar-conta",
+    signup: "/cadastro",
     terms: "/termos",
     privacy: "/privacidade",
+    deletion: "/excluir-conta",
   },
 } as const;
