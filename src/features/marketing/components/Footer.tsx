@@ -18,7 +18,7 @@ export function Footer() {
           <div><b>Acesso</b><a href={marketingConfig.routes.login}>Entrar</a><a href={marketingConfig.routes.signup}>Criar minha conta</a><a href={marketingConfig.routes.terms}>Termos</a><a href={marketingConfig.routes.privacy}>Privacidade</a><a href={marketingConfig.routes.deletion}>Excluir conta</a></div>
         </div>
       </div>
-      <div className={styles.footerBottom}><span>© {new Date().getFullYear()} Oficina Mais. Todos os direitos reservados.</span><span>Plano único · R$ 199,00 por mês.</span></div>
+      <div className={styles.footerBottom}><span>© {new Date().getFullYear()} Oficina Mais. Todos os direitos reservados.</span><span>Plano único · R$ 89,90 por mês.</span></div>
     </footer>
   );
 }

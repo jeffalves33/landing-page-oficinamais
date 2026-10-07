@@ -69,7 +69,7 @@ export const videoItems = [
 
 export const faqs = [
   { q: "Para quem o Oficina Mais foi criado?", a: "Para oficinas mecânicas independentes, auto centers, oficinas especializadas, lojas de pneus com serviços e outros pequenos e médios negócios automotivos que precisam organizar a operação sem adotar um ERP excessivamente complexo." },
-  { q: "Existe mais de um plano?", a: "Não. O Oficina Mais possui um único plano mensal de R$ 199,00, com todos os recursos principais e sem módulos adicionais. Condições comerciais específicas podem ser aplicadas quando disponíveis." },
+  { q: "Existe mais de um plano?", a: "Não. O Oficina Mais possui um único plano mensal de R$ 89,90, com todos os recursos principais e sem módulos adicionais. Condições comerciais específicas podem ser aplicadas quando disponíveis." },
   { q: "O colaborador acessa a cobrança da assinatura?", a: "Não. A cobrança é gerenciada somente pelo proprietário ou administrador. O colaborador utiliza os fluxos operacionais permitidos." },
   { q: "Os dados de uma oficina ficam separados das outras?", a: "Sim. Cada oficina acessa somente seus próprios dados. Operações sensíveis também validam usuário, oficina, papel e propriedade antes de concluir alterações." },
   { q: "A ordem de serviço atualiza o estoque?", a: "Sim. Produtos utilizados na ordem geram movimentos de estoque. A operação é tratada de forma consistente para evitar que uma falha deixe a ordem ou o estoque pela metade." },

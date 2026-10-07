@@ -7,7 +7,7 @@
 - aplicação da logo enviada, com fundo transparente;
 - criação de favicon multirresolução;
 - criação da imagem Open Graph 1200×630;
-- plano único de R$ 199,00;
+- plano único de R$ 89,90;
 - ilustrações React/CSS para clientes, veículos, ordens, estoque e manutenções;
 - revisão de metadados, rotas, FAQ, footer, páginas legais e documentação;
 - remoção do vídeo de demonstração anterior;

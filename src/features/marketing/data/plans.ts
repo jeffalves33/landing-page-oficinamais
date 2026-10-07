@@ -10,7 +10,7 @@ export type Plan = {
 export const plans: Plan[] = [
   {
     name: "Plano único",
-    price: 199,
+    price: 89.9,
     description: "Uma assinatura mensal com os principais recursos para organizar e acompanhar a operação da oficina.",
     audience: "Para oficinas automotivas de pequeno e médio porte",
     features: [
@@ -29,7 +29,7 @@ export const plans: Plan[] = [
 ];
 
 export const planConditions = [
-  "Preço-base oficial de R$ 199,00 por mês",
+  "Preço-base oficial de R$ 89,90 por mês",
   "Cobrança mensal em moeda brasileira",
   "Pagamento e cancelamento gerenciados com segurança",
   "Cupons individuais podem ser aplicados sem alterar o preço-base",

@@ -189,14 +189,18 @@ function Trust() {
 
 function Pricing() {
   const plan = plans[0];
+  const formattedPrice = plan.price.toLocaleString("pt-BR", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
   return (
     <section id="planos" className={styles.pricingSection}>
       <div className={styles.sectionContainer}>
-        <Reveal><SectionHeading eyebrow="Plano único e previsível" title="Os recursos principais em uma única assinatura." text="Tudo o que sua oficina precisa por R$ 199,00 por mês, sem módulos adicionais ou surpresas." align="center" /></Reveal>
+        <Reveal><SectionHeading eyebrow="Plano único e previsível" title="Os recursos principais em uma única assinatura." text="Tudo o que sua oficina precisa por R$ 89,90 por mês, sem módulos adicionais ou surpresas." align="center" /></Reveal>
         <div className={styles.pricingGrid}>
           <Reveal className={`${styles.planCard} ${styles.planHighlighted}`}>
             <span className={styles.planBadge}>Plano único</span>
-            <div className={styles.planTop}><span>{plan.name}</span><p>{plan.description}</p><div className={styles.planPrice}><sup>R$</sup><strong>{plan.price}</strong><small>/mês</small></div><em>{plan.audience}</em></div>
+            <div className={styles.planTop}><span>{plan.name}</span><p>{plan.description}</p><div className={styles.planPrice}><sup>R$</sup><strong>{formattedPrice}</strong><small>/mês</small></div><em>{plan.audience}</em></div>
             <a className={styles.primaryButton} href={marketingConfig.routes.signup}>Criar minha conta <Icon name="arrow"/></a>
             <div className={styles.planFeatures}><b>O que está incluído</b><ul>{plan.features.map((feature) => <li key={feature}><Icon name="check"/>{feature}</li>)}</ul></div>
           </Reveal>
